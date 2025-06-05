@@ -15,7 +15,7 @@ The project **does not require Google Maps API**, making it **100% free** to use
 
 ---
 
-** Project Structure**  
+**Project Structure**  
 
 ```
 /Real-Time-Location-Tracking
@@ -75,16 +75,16 @@ Click **"Track Me"** to see your real-time location on the map!
 
 **1. Frontend (`index.html`)**  
 This file:  
-✅ Contains a **"Track Me"** button  
-✅ Uses **JavaScript** to get user location  
-✅ Sends the location to the Flask server  
-✅ Uses **Leaflet.js + OpenStreetMap** to display the map  
+--> Contains a **"Track Me"** button  
+--> Uses **JavaScript** to get user location  
+--> Sends the location to the Flask server  
+--> Uses **Leaflet.js + OpenStreetMap** to display the map  
 
 **2. Backend (`app.py`)**  
 This file:  
-✅ Uses **Flask** to handle HTTP requests  
-✅ Stores the **latest user location**  
-✅ Sends back the stored location to update the map  
+--> Uses **Flask** to handle HTTP requests  
+--> Stores the **latest user location**  
+--> Sends back the stored location to update the map  
 
 ---
 
